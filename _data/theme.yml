@@ -31,8 +31,10 @@ google_fonts:
 
 navigation_pages:
   - posts.md
+  - writeups.md
   - recipes.md
   - about.md
+  - team.md
   - cv.md
   - tags.md
   - categories.md
