@@ -6,9 +6,9 @@ description: We are really proud to say W3lc0m3 to our website
 baseurl:  # the optional subpath of your site, e.g. "/blog"
 url: # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 author:
-  name:
-  twitter:
-  picture:
+  name: 
+  twitter: 
+  picture: 
 twitter_username:
 github_username: hackerers-unictf
 logo: # path of site logo, e.g. "/assets/images/logo.png"
@@ -24,6 +24,8 @@ algolia:
 # Liquid
 liquid:
   error_mode: strict
+
+google_analytics: UA-159847646-2
 
 # Build settings
 markdown: kramdown
@@ -66,10 +68,7 @@ exclude:
 
 # Collections
 collections:
-  recipes:
-    output: true
-    permalink: /:collection/:path/
-  writeups:
+  press:
     output: true
     permalink: /:collection/:path/
 
@@ -81,20 +80,12 @@ defaults:
       type: posts
     values:
       layout: post
-      read_time: true
+      read_time: false
 
-  # _recipes
+  # _press
   - scope:
-      path: "_recipes"
-      type: recipes
-    values:
-      layout: post
-      read_time: true
-
-  # _writeups
-  - scope:
-      path: "_writeups"
-      type: writeups
+      path: "_press"
+      type: press
     values:
       layout: post
       read_time: false

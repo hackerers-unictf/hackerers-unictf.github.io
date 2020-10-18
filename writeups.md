@@ -1,9 +1,7 @@
 ---
 title: Writeups
-layout: collection
+layout: tags
 permalink: /writeups/
-collection: writeups
-entries_layout: list
 ---
 
-Here you cand find all writeups and exploits. Search for tagsssss :)
+Here you can fin all our writeups and exploit, use tags for improve bla bla search

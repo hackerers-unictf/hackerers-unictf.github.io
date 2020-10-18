@@ -1,0 +1,9 @@
+megaman:
+    name: Mega Man
+    twitter: megamantwitter
+    picture: /assets/images/megaman.png
+
+drlight:
+    name: Dr. Light
+    twitter: drlighttwitter
+    picture: /assets/images/drlight.png

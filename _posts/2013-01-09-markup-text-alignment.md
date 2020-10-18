@@ -1,5 +1,6 @@
 ---
 title: "Markup: Text Alignment and Transformations"
+author: drlight
 categories:
   - Markup
 tags:
